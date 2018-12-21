@@ -17,5 +17,6 @@ Particle View Widget for Flutter.
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '8.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 end
 
